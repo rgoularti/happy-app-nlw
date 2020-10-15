@@ -13,6 +13,7 @@
 
 # misc
 database.sqlite
+/uploads
 .DS_Store
 .env
 .env.local
