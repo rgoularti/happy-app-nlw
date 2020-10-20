@@ -1,12 +1,9 @@
 import React from 'react';
+import { FiArrowRight, FiPlus } from 'react-icons/fi';
+import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 import { Link } from 'react-router-dom';
-import { FiPlus, FiArrowRight } from 'react-icons/fi';
-import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
-
 import mapMarkerImg from '../images/map-marker.svg';
-
 import '../styles/pages/orphanages-map.css';
-
 import mapIcon from '../utils/mapIcon';
 
 function OrphanageMap() {

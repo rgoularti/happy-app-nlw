@@ -2,9 +2,8 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { FiClock, FiInfo } from 'react-icons/fi';
 import { Map, Marker, TileLayer } from 'react-leaflet';
-
-import '../styles/pages/orphanage.css';
 import Sidebar from '../components/Sidebar';
+import '../styles/pages/orphanage.css';
 import mapIcon from '../utils/mapIcon';
 
 export default function Orphanage() {
