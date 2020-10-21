@@ -9,9 +9,9 @@ import mapIcon from '../utils/mapIcon';
 
 interface Orphanage {
   id: number;
+  name: string;
   latitude: number;
   longitude: number;
-  name: string;
 }
 
 function OrphanageMap() {
